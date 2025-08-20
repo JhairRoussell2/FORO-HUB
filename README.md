@@ -1,6 +1,6 @@
 
 <h1 align="center" style="font-size: 50px;">🚀 ForoHub - API REST para Sistema de Foros</h1>
-<p align="center"> <img src="1.jpg" alt="Logo ForoHub"> </p>
+<p align="center"> <img src="./paraREADME/1.jpg" alt="Logo ForoHub"> </p>
 
 ---
 
@@ -10,10 +10,9 @@
 3. [Características del Proyecto](#-características-del-proyecto)
 4. [Tecnologías Utilizadas](#-tecnologías-utilizadas)
 5. [Acceso al Proyecto](#-acceso-al-proyecto)
-6. [Instrucciones para Ejecutar](#-instrucciones-para-ejecutar)
-7. [Endpoints de la API](#-endpoints-de-la-api)
-8. [Personas Desarrolladoras del Proyecto](#-personas-desarrolladoras-del-proyecto)
-9. [Licencia](#-licencia)
+6. [Endpoints de la API](#-endpoints-de-la-api)
+7. [Personas Desarrolladoras del Proyecto](#-personas-desarrolladoras-del-proyecto)
+8. [Licencia](#-licencia)
 
 ---
 
@@ -69,11 +68,11 @@
 ## 📁 **Acceso al Proyecto**
 
 1. **Clonar el Repositorio**:
-   - `git clone https://github.com/tu-usuario/forohub.git`
+   - `git clone https://github.com/JhairRoussell2/FORO-HUB.git`
    - `cd forohub`
 
 2. **Abrir en IDE**:
-   - Importar como proyecto Maven en **IntelliJ IDEA** o **Eclipse**.
+   - Importar como proyecto Maven en **IntelliJ IDEA** .
 
 ---
 
@@ -112,6 +111,8 @@ mvn spring-boot:run
 <p align="center">
   <img src="./paraREADME/Ejm0.jpg" alt="Sí">
 </p>
+
+
 ### 🔐 **Autenticación**
 - **POST /login**
   - **Content-Type**: application/json
@@ -121,32 +122,55 @@ mvn spring-boot:run
       "email": "admin@forohub.com",
       "password": "123456"
     }
-    ```
+    
+
+    
 <p align="center">
   <img src="./paraREADME/Ejm1.jpg" alt="Sí">
 </p>
 
 ### 📝 **Tópicos**
 - **GET /topicos**: Listar todos los tópicos.
+
+
 <p align="center">
   <img src="./paraREADME/Ejm3.jpg" alt="Sí">
 </p>
+
+
 - **GET /topicos/{id}**: Obtener tópico específico.
+
+
 <p align="center">
   <img src="./paraREADME/Ejm4.jpg" alt="Sí">
 </p>
+
+
+
 - **POST /topicos**: Crear nuevo tópico (requiere autenticación).
+
+  
 <p align="center">
   <img src="./paraREADME/Ejm2.jpg" alt="Sí">
 </p>
+
+
 - **PUT /topicos/{id}**: Actualizar tópico (requiere autenticación).
+
+
 <p align="center">
   <img src="./paraREADME/Ejm5.jpg" alt="Sí">
 </p>
+
+
 - **DELETE /topicos/{id}**: Eliminar tópico (requiere autenticación).
+
+
 <p align="center">
   <img src="./paraREADME/Ejm6.jpg" alt="Sí">
 </p>
+
+
 ### 📋 **Ejemplo de Request**
 - **POST /topicos**
   - **Authorization**: Bearer eyJhbGciOiJIUzI1NiJ9...
@@ -160,6 +184,7 @@ mvn spring-boot:run
       "cursoId": 1
     }
     ```
+
 
 ### 📋 **Ejemplo de Response**
 - Response body:
