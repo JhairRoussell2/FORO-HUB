@@ -69,7 +69,6 @@
 
 1. **Clonar el Repositorio**:
    - `git clone https://github.com/JhairRoussell2/FORO-HUB.git`
-   - `cd forohub`
 
 2. **Abrir en IDE**:
    - Importar como proyecto Maven en **IntelliJ IDEA** .
